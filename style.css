@@ -1,0 +1,225 @@
+body {
+    font-family: BasisGrotesquePro-Light;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.messenger {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/background.png);
+    background-attachment: fixed;
+    height: auto;
+    width: 100%;
+}
+
+.nav_placeholder {
+    display: flex;
+    width: 185px;
+    background-color: #191B26;
+}
+
+.nav_block {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 185px;
+    height: 100vh;
+    background-color: #191B26;
+}
+
+.logo_text {
+    color: rgba(255,255,255,0.5);
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 15px;
+    left: 40px;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80vh;
+    margin-top: 50px;
+}
+
+.month {
+    width: 140px;
+    color: rgba(255,255,255,0.5);
+    margin: 0 auto;
+}
+
+.month_name {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.date_line {
+    width: 140px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.date {
+    color: rgba(255,255,255,0.5);
+    font-size: 14px;
+}
+
+.me {
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    width: 165px;
+    height: 70px;
+}
+
+.text_me {
+    width: 75px;
+    height: 40px;
+    background-color: #191B26;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 35px auto 0 auto;
+    color: rgba(255,255,255,0.5);
+}
+
+.added {
+    margin: 65px auto 0 auto;
+    background-color: #191B26;
+    border-radius: 10px;
+    width: 260px;
+    height: 40px;
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+    line-height: 40px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 730px;
+    margin-left: 70px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    
+}
+
+.ava_messege {
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #191B26;
+}
+
+.messege {
+    width: 640px;
+    border-radius: 10px;
+    background-color: #191B26;
+    margin-left: 20px;
+}
+
+.autor_name {
+    color: rgba(255,255,255,0.5);
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: 95px;
+}
+
+.messege_text {
+    display: block;
+    color: rgba(255,255,255,0.5);
+    font-size: 20px;
+    margin: 10px 10px 0px 10px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    border-left: 2px;
+    border-left-style: solid;
+    border-left-color: rgba(255,255,255,0.5);
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    height: 55px;
+}
+
+.link_headline {
+    color: rgba(255,255,255,0.5);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.link_text {
+    color: rgba(255,255,255,0.5);
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.ava1 {
+    background-image: url(img/ava_z.png);
+    background-size: cover;
+}
+
+.ava2 {
+    background-image: url(img/ava_v.png);
+    background-size: cover;
+}
+
+.ava3 {
+    background-image: url(img/ava_m.png);
+    background-size: cover;
+}
+
+.ava_me {
+    background-image: url(img/ava_me.png);
+    background-size: cover;
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+}
+
+.rad {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: white;
+    
+}
+
+.rad1 {
+    right: 190px;
+    bottom: 40px;
+    opacity: 0.5;
+}
+
+.rad2 {
+    right: 170px;
+    bottom: 40px;
+    opacity: 0.35;
+}
+
+.rad3 {
+    right: 150px;
+    bottom: 40px;
+    opacity: 0.2;
+}
